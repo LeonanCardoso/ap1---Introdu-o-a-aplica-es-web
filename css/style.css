@@ -45,12 +45,6 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px 200px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    border-bottom: solid 1px #ffff;
-    background-color:#287FB5;
 }
 
 .conteiner-nav nav ul{
@@ -67,18 +61,17 @@ header{
 
 /*introdução-do-site*/
 .introdução-do-site{
-    margin: 0px 200px;
+    margin: 150px 200px;
     display: flex;
     gap: 20px;
 }
 
 .introdução-do-site img{
     width: 600px;
-    margin-top: 200px;
 }
 
 .slogan-do-site{
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 .slogan-do-site h1{
