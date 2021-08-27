@@ -29,21 +29,21 @@ header{
     height: 100vh;
 }
 
-.barra-inicial{
+.conteiner-header{
     display: flex;
     justify-content: space-between;
     padding: 20px 200px;
 }
 
-.barra-inicial nav ul{
+.conteiner-header nav ul{
     display: flex;
 }
 
-.barra-inicial nav ul li{
+.conteiner-header nav ul li{
     padding: 0 20px;
     font-size: 20px;
 }
-.barra-inicial nav ul li a:hover{
+.conteiner-header nav ul li a:hover{
     color: #EBF21D;
 }
 
