@@ -41,37 +41,44 @@ header{
     height: 100vh;
 }
 
-.conteiner-header{
+.conteiner-nav{
     display: flex;
     justify-content: space-between;
     padding: 20px 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: solid 1px #ffff;
+    background-color:#287FB5;
 }
 
-.conteiner-header nav ul{
+.conteiner-nav nav ul{
     display: flex;
 }
 
-.conteiner-header nav ul li{
+.conteiner-nav nav ul li{
     padding: 0 20px;
     font-size: 20px;
 }
-.conteiner-header nav ul li a:hover{
+.conteiner-nav nav ul li a:hover{
     color: #EBF21D;
 }
 
 /*introdução-do-site*/
 .introdução-do-site{
-    margin: 150px 200px;
+    margin: 0px 200px;
     display: flex;
     gap: 20px;
 }
 
 .introdução-do-site img{
     width: 600px;
+    margin-top: 200px;
 }
 
 .slogan-do-site{
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 .slogan-do-site h1{
