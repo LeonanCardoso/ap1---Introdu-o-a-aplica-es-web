@@ -11,7 +11,7 @@ function scrollToIdOnClick(){
 }
 
 function scrollToPosition(to){
-    smoothScrollTo(0, to, 2500)
+    smoothScrollTo(0, to, 2000)
 }
 
 function getScrollTopHref(element){
