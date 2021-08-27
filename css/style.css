@@ -84,7 +84,7 @@ header{
     font-size: 30px;
 }
 
-.slogan-do-site button{
+.slogan-do-site a{
     margin: 50px 0;
     border: none;
     padding: 10px 30px; 
@@ -95,9 +95,13 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.slogan-do-site button:hover{
+.slogan-do-site a:hover{
     background-color: #EBF21D;
     transition: 0.5s;
+}
+
+.btn-conheça{
+    margin-top: 50px;
 }
 
 /*apresentação*/
