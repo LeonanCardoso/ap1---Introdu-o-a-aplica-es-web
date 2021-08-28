@@ -123,3 +123,23 @@ header{
     width: 600px;
 }
 
+/*descrição da parte do html*/
+
+.conteiner-que-encontra{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.conteiner-que-encontra .img-html img{
+    width: 200px;
+    margin-top: 11px;
+}
+
+.conteiner-que-encontra .img-css img{
+    width: 200px;
+}
+.conteiner-que-encontra .img-javascript img{
+    width: 200px;
+}
+

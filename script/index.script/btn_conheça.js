@@ -5,7 +5,7 @@ btnConheça.addEventListener('click',scrollToIdOnClick);
 
 function scrollToIdOnClick(){
     event.preventDefault()    
-    const to = getScrollTopHref(event.target)
+    const to = getScrollTopHref(event.target)-148
     
     scrollToPosition(to)
 }
