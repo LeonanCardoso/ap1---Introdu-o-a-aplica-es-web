@@ -30,7 +30,7 @@ a{
 
 body{
     font-family: 'Courier New', Courier, monospace;
-    color: #ffff;
+    color: black;
 }
 
 /*config do header*/
@@ -45,6 +45,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 20px 200px;
+    color: white;
 }
 
 .conteiner-nav nav ul{
@@ -72,6 +73,7 @@ header{
 
 .slogan-do-site{
     margin-top: 100px;
+    color: white;
 }
 
 .slogan-do-site h1{
@@ -125,21 +127,40 @@ header{
 
 /*descrição da parte do html*/
 
-.conteiner-que-encontra{
+.que-encontra h2{
+    color:#343A40;
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.que-encontra-img{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 150px;
+}
+.que-encontra-img .img-html img{
+    width: 200px;
 }
 
-.conteiner-que-encontra .img-html img{
+.que-encontra-img .img-css img{
     width: 200px;
-    margin-top: 11px;
+}
+.que-encontra-img .img-javascript img{
+    width: 200px;
 }
 
-.conteiner-que-encontra .img-css img{
-    width: 200px;
+.que-encontra-img .img-html{
+    border-radius: 50%;
+    background-color: rgb(170, 166, 166);
 }
-.conteiner-que-encontra .img-javascript img{
-    width: 200px;
+.que-encontra-img .img-css{
+    border-radius: 50%;
+    background-color: rgb(170, 166, 166);
+}
+.que-encontra-img .img-javascript{
+    border-radius: 50%;
+    background-color: rgb(170, 166, 166);
 }
 
