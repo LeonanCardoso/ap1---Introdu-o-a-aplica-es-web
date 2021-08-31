@@ -23,8 +23,8 @@ body{
 /*navegação*/
 
 header{
-    background-color:#287FB5;
     height: 100vh;
+    background-color: #f78160;
 }
 
 .conteiner-nav{
@@ -43,9 +43,22 @@ header{
     font-size: 20px;
 }
 .conteiner-nav nav ul li a:hover{
-    color: #EBF21D;
+    color: #1ae0a5;
 }
 
 .conteiner-nav h1{
     font-size: 30px;
+}
+
+/*introdução do html*/
+
+.introdução-html{
+    margin: 150px 50px;
+    display: flex;
+}
+
+.introdução-html p{
+    font-size: 30px;
+    margin-top: 160px;
+    color: rgb(255, 255, 255);
 }
