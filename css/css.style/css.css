@@ -23,8 +23,8 @@ body{
 /*navegação*/
 
 header{
-    background-color:#287FB5;
     height: 100vh;
+    background-color: #287FB5;
 }
 
 .conteiner-nav{
@@ -48,4 +48,24 @@ header{
 
 .conteiner-nav h1{
     font-size: 30px;
+}
+
+/*introdução do html*/
+
+.introdução-css{
+    margin: 150px 50px;
+    display: flex;
+    margin-left: 130px;
+    gap: 70px;
+}
+
+.introdução-css img {
+    width: 512px;
+    height: 512px;
+}
+
+.introdução-css p{
+    font-size: 30px;
+    margin-top: 160px;
+    color: rgb(255, 255, 255);
 }
