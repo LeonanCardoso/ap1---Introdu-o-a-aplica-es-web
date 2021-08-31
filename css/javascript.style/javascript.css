@@ -45,3 +45,7 @@ header{
 .conteiner-nav nav ul li a:hover{
     color: #EBF21D;
 }
+
+.conteiner-nav h1{
+    font-size: 30px;
+}

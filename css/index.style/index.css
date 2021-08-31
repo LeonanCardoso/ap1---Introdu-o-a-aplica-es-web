@@ -60,6 +60,10 @@ header{
     color: #EBF21D;
 }
 
+.conteiner-nav h1{
+    font-size: 30px;
+}
+
 /*introdução-do-site*/
 .introdução-do-site{
     margin: 150px 200px;
