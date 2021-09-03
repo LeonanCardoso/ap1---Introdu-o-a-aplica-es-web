@@ -36,6 +36,7 @@ header{
 
 .conteiner-nav nav ul{
     display: flex;
+    margin-top: 15px;
 }
 
 .conteiner-nav nav ul li{
@@ -46,8 +47,8 @@ header{
     color: white;
 }
 
-.conteiner-nav h1{
-    font-size: 30px;
+.conteiner-nav .logo img{
+    width: 150px;
 }
 
 /*introdução do html*/
