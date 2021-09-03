@@ -46,8 +46,8 @@ header{
     color: #EBF21D;
 }
 
-.conteiner-nav h1{
-    font-size: 30px;
+.conteiner-nav .logo img{
+    width: 150px;
 }
 
 /*introdução do css*/
