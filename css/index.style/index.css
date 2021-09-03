@@ -50,6 +50,7 @@ header{
 
 .conteiner-nav nav ul{
     display: flex;
+    margin-top: 15px;
 }
 
 .conteiner-nav nav ul li{
@@ -66,37 +67,34 @@ header{
 
 /*introdução-do-site*/
 .introdução-do-site{
-    margin: 150px 200px;
+    margin: 100px 200px;
     display: flex;
     gap: 20px;
 }
 
 .introdução-do-site img{
-    width: 600px;
+    width: 500px;
 }
 
 .slogan-do-site{
-    margin-top: 100px;
-    color: white;
+    margin-top: 200px;
+    color: white;   
 }
 
 .slogan-do-site h1{
     font-size: 40px;
-    margin-bottom: 10px;
-    margin-top: 100px;
 }
 
 .slogan-do-site p{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .slogan-do-site a{
-    margin: 50px 0;
     border: none;
     padding: 10px 30px; 
     background-color: #ffff;
     border-radius: 100px;
-    font-size: 30px;
+    font-size: 20px;
     color:#343A40;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -113,7 +111,7 @@ header{
 
 /*apresentação*/
 .conteiner-apresentação{
-    margin: 150px 150px;
+    margin: 100px 200px;
     display: flex;
 }
 
@@ -121,12 +119,12 @@ header{
     color: #343A40;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 60px;
+    
 }
 
 
 .img-apresentação img{
-    width: 600px;
+    width: 500px;
 }
 
 /*descrição da parte do html*/
