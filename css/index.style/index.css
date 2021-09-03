@@ -67,18 +67,22 @@ header{
 
 /*introdução-do-site*/
 .introdução-do-site{
-    margin: 100px 200px;
+    margin: 100px 0;
     display: flex;
+    justify-content: space-between;
     gap: 20px;
 }
 
 .introdução-do-site img{
     width: 500px;
+    margin-right: 200px;
 }
 
 .slogan-do-site{
+    width: 300px;
     margin-top: 200px;
-    color: white;   
+    margin-left: 200px;
+    color: white;  
 }
 
 .slogan-do-site h1{
