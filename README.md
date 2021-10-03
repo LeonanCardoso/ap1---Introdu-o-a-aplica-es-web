@@ -3,7 +3,7 @@
 <p>Isso é um trabalho do primeiro período da faculdade de análise e desenvolvimento de sistemas, o professor pediu para criar um site com o tema de educação.<p>
 <br>
 <br>
-<h3>Site em desenvolvimento<h3>
+<h3 style="text-align:center;">⚠️⚠️Site em desenvolvimento⚠️⚠️<h3>
     
 # Sistema de postagem
 
