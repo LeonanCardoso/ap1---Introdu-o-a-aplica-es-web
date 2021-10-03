@@ -1,13 +1,13 @@
 export const render = (database) => {
 
     let li = ""
-    let divArticles = ""
+    let article = ""
 
     database.forEach(item => {
         li += `
         <li><a href = "#${item.title}">${item.title}</a></li>`
 
-        divArticles += `
+        article += `
         <div id = "${item.title}">
             <h1>${item.title}</h1><br><article>${item.article}</article>
         </div>`
@@ -15,5 +15,5 @@ export const render = (database) => {
     }); 
 
     document.querySelector(".indicesUl").innerHTML = li
-    document.querySelector('.articles').innerHTML = divArticles
+    document.querySelector('.articles').innerHTML = article
 }
