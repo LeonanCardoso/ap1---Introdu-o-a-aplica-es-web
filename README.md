@@ -6,7 +6,8 @@
 <h3>Site em desenvolvimento<h3>
     
 # Sistema de postagem
-    <p>Na pasta database tem os arquivos de postagem, basta colocar um objeto com um title e um article (o article tem que ser um uma string com codigo html) no arquivo da página desejada. Assim renderiza no html já formatado. <p>
+
+<p>Na pasta database tem os arquivos de postagem, basta colocar um objeto com um title e um article (o article tem que ser um uma string com codigo html) no arquivo da página desejada. Assim renderiza no html já formatado.<p>
     
 <h1>
     <img src="./img/como-add-article.gif" alt="README">
