@@ -3,7 +3,7 @@
 <p>Isso é um trabalho do primeiro período da faculdade de análise e desenvolvimento de sistemas, o professor pediu para criar um site com o tema de educação.<p>
 <br>
 <br>
-<p style="text-align:center;">⚠️⚠️Site em desenvolvimento⚠️⚠️<p>
+<p align = "center">⚠️⚠️Site em desenvolvimento⚠️⚠️<p>
     
 # Tecnologias utilizadas:
 - [✔️] HTML
