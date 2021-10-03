@@ -1,5 +1,5 @@
 
-export function scrollToIdOnClick(){
+export function scrollToIdOnClick(event){
     event.preventDefault()    
     const to = getScrollTopHref(event.target)-50
     
