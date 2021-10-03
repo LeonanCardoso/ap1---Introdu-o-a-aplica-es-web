@@ -104,3 +104,11 @@ header{
     border-bottom: solid 1px black;
     padding-bottom: 50px;
 }
+
+.articles div h1{
+    padding-top: 50px;
+}
+
+.articles img{
+    width: 850px;
+}
