@@ -1,4 +1,4 @@
-import { database } from "../../database/javascript.js"
+import {database} from "../../database/javascript.js"
 
 const render = () => {
     const showIndices = () => {
@@ -18,13 +18,14 @@ const render = () => {
             </div>
             `
         }
+
         document.querySelector(".indicesUl").innerHTML = li
         document.querySelector('.articles').innerHTML = divArticles
 
-        
     }
 
     showIndices()
 }
 
 render()
+
