@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+/*config do header*/
+/*navegação*/
+
+header{
+    height: 100vh;
+    background-color:#e9ee55;
+}
+
+.conteiner-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.1881838074398248vh 15.625vw;
+    color: rgb(0, 0, 0);
+}
+
+.conteiner-nav nav ul{
+    display: flex;
+    margin-top: 1.6411378555798688vh;
+}
+
+.conteiner-nav nav ul li{
+    padding: 0 1.5625vw;
+    font-size: 1.5625vw;
+}
+.conteiner-nav nav ul li a:hover{
+    color: white;
+}
+
+/*introdução do html*/
+
+.introdução-javascript{
+    margin: 16.411378555798688vh 3.90625vw;
+    display: flex;
+}
+
+.introdução-javascript img {
+    width: 40vw;
+    height: 56.01750547045952vh;
+}
+
+.introdução-javascript p{
+    font-size: 2.34375vw;
+    margin-top: 17.505470459518598vh;
+    color: rgb(0, 0, 0);
+}
+
+/*indices*/
+
+.indices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10.940919037199125vh 7.8125vw;
+}
+
+.indices .indicesUl a{
+    color: rgb(47, 66, 240);
+}
+
+.indices .indicesUl{
+    border: black solid 2px;
+}
+
+.indices .indicesUl li{
+    padding: 1.0940919037199124vh 0.78125vw ;
+    background-color: blanchedalmond;
+    border: black solid 0.15625vw;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 3.90625vw;
+    margin-bottom: 5.470459518599562vh;
+    gap: 3.90625vw;
+    
+}
+
+.articles div {
+    border: solid 1px black;
+}
